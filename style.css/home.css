@@ -1,11 +1,17 @@
 .body {
     display: grid;
-    grid-template-columns: 200px repeat(3, 1fr);
+    grid-template-columns: 200px repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
+}
+
+.naam {
+    grid-area: 2/3/2/4;
+    text-align: center;
 }
 
 .img {
     grid-area: 1/1/2/2;
     height: 200px;
     width: 200px;
+    border-radius: 10px;
 }
